@@ -7,7 +7,7 @@ const routes = require('./routes'); // Import routes module
 const cwd = process.cwd();
 
 // Setting up the port for the server to listen on, defaulting to 3001 if not specified
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 // Creating an Express application instance
 const app = express();
